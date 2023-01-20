@@ -1,0 +1,64 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    flex: 1;
+    justify-content: space-evenly;
+    
+}
+
+.header {
+    max-height: 72px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 8px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}
+
+.intro-words {
+    display: flex;
+    flex: 1;
+}
+
+.intro-pic {
+    display: flex;
+}
+
+.panels {
+    display: flex;
+    flex: 1;
+}
+
+.quote {
+    display: flex;
+    flex: 1;
+}
+
+.signup {
+    display: flex;
+    flex: 1;
+}
+
+.action {
+    display: flex;
+    background-color: blue;
+    margin: auto;
+}
+
+.footer {
+    max-height: 72px;
+    display: flex;
+}
